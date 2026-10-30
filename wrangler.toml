@@ -3,7 +3,10 @@ main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = ""				#KV数据库id
-# Trigger Workers Builds first build
+[[kv_namespaces]]
+binding = "KV"
+id = "6a0c26d661f94473924d3a1e4c1a8801"
+
+[vars]
+HOST = "edge-node.kente998.workers.dev"
+HEAL_CF_ONLY = "1"
